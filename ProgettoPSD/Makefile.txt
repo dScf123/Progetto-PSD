@@ -1,0 +1,19 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -std=c99 -g
+
+# Elenco dei file oggetto che comporranno il programma
+OBJS = main.o segnalazione.o
+
+all: progetto
+
+progetto: $(OBJS)
+	$(CC) $(CFLAGS) $(OBJS) -o progetto
+
+main.o: main.c segnalazione.h
+	$(CC) $(CFLAGS) -c main.c
+
+segnalazione.o: segnalazione.c segnalazione.h
+	$(CC) $(CFLAGS) -c segnalazione.c
+
+clean:
+	rm -f *.o progetto progetto.exe
