@@ -21,12 +21,18 @@
     <ClCompile Include="segnalazione.c">
       <Filter>File di origine</Filter>
     </ClCompile>
+    <ClCompile Include="pqueue.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Makefile.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="segnalazione.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="pqueue.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
   </ItemGroup>

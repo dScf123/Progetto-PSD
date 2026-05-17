@@ -16,6 +16,7 @@ struct segnalazione_struct {
 };
 
 Segnalazione crea_segnalazione(int id, const char* nome, const char* categoria, const char* descrizione, const char* data, int urgenza) {
+    /* Allocazione della struttura principale */
     Segnalazione s = (Segnalazione)malloc(sizeof(struct segnalazione_struct));
     if (s == NULL) return NULL;
 
@@ -23,17 +24,40 @@ Segnalazione crea_segnalazione(int id, const char* nome, const char* categoria, 
     s->urgenza = urgenza;
     s->stato = APERTA; /* Una nuova segnalazione nasce sempre APERTA */
 
-    /* Allocazione dinamica per le stringhe  */
+    /* Allocazione dinamica sicura per le stringhe con controllo anti-crash */
+
     s->nome = (char*)malloc(strlen(nome) + 1);
+    if (s->nome == NULL) {
+        free(s); /* Libero la struttura se fallisce */
+        return NULL;
+    }
     strcpy(s->nome, nome);
 
     s->categoria = (char*)malloc(strlen(categoria) + 1);
+    if (s->categoria == NULL) {
+        free(s->nome); /* Libero quello allocato finora */
+        free(s);
+        return NULL;
+    }
     strcpy(s->categoria, categoria);
 
     s->descrizione = (char*)malloc(strlen(descrizione) + 1);
+    if (s->descrizione == NULL) {
+        free(s->categoria);
+        free(s->nome);
+        free(s);
+        return NULL;
+    }
     strcpy(s->descrizione, descrizione);
 
     s->data = (char*)malloc(strlen(data) + 1);
+    if (s->data == NULL) {
+        free(s->descrizione);
+        free(s->categoria);
+        free(s->nome);
+        free(s);
+        return NULL;
+    }
     strcpy(s->data, data);
 
     return s;

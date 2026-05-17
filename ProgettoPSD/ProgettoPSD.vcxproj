@@ -128,12 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.c" />
+    <ClCompile Include="pqueue.c" />
     <ClCompile Include="segnalazione.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Makefile.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="pqueue.h" />
     <ClInclude Include="segnalazione.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
