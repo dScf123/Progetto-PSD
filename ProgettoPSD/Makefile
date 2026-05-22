@@ -18,5 +18,8 @@ segnalazione.o: segnalazione.c segnalazione.h
 pqueue.o: pqueue.c pqueue.h segnalazione.h
 	$(CC) $(CFLAGS) -c pqueue.c
 
+hash.o: hash.c hash.h segnalazione.h
+	$(CC) $(CFLAGS) -c hash.c
+
 clean:
 	rm -f *.o progetto progetto.exe

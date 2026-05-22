@@ -24,9 +24,9 @@
     <ClCompile Include="pqueue.c">
       <Filter>File di origine</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Makefile.txt" />
+    <ClCompile Include="hash.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="segnalazione.h">
@@ -35,5 +35,11 @@
     <ClInclude Include="pqueue.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
   </ItemGroup>
 </Project>

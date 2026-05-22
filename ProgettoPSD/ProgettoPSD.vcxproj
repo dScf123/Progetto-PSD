@@ -127,16 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="hash.c" />
     <ClCompile Include="Main.c" />
     <ClCompile Include="pqueue.c" />
     <ClCompile Include="segnalazione.c" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Makefile.txt" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="hash.h" />
     <ClInclude Include="pqueue.h" />
     <ClInclude Include="segnalazione.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
