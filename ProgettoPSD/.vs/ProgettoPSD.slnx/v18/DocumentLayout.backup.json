@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\David\\source\\repos\\Progetto-PSD Traccia 3\\ProgettoPSD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20976543-3949-464D-9F4D-38AD636B36A2}|ProgettoPSD.vcxproj|C:\\Users\\David\\source\\repos\\Progetto-PSD Traccia 3\\ProgettoPSD\\hash.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20976543-3949-464D-9F4D-38AD636B36A2}|ProgettoPSD.vcxproj|solutionrelative:hash.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{20976543-3949-464D-9F4D-38AD636B36A2}|ProgettoPSD.vcxproj|C:\\Users\\David\\source\\repos\\Progetto-PSD Traccia 3\\ProgettoPSD\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{20976543-3949-464D-9F4D-38AD636B36A2}|ProgettoPSD.vcxproj|solutionrelative:Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20976543-3949-464D-9F4D-38AD636B36A2}|ProgettoPSD.vcxproj|C:\\Users\\David\\source\\repos\\Progetto-PSD Traccia 3\\ProgettoPSD\\hash.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20976543-3949-464D-9F4D-38AD636B36A2}|ProgettoPSD.vcxproj|solutionrelative:hash.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20976543-3949-464D-9F4D-38AD636B36A2}|ProgettoPSD.vcxproj|C:\\Users\\David\\source\\repos\\Progetto-PSD Traccia 3\\ProgettoPSD\\pqueue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "hash.c",
               "DocumentMoniker": "C:\\Users\\David\\source\\repos\\Progetto-PSD Traccia 3\\ProgettoPSD\\hash.c",
               "RelativeDocumentMoniker": "hash.c",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "hash.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-05-22T16:33:05.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T16:33:05.212Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "pqueue.c",
               "ViewState": "AgIAAC4AAAAAAAAAAAAowEgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-05-17T15:13:58.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T15:13:58.946Z"
             },
             {
               "$type": "Document",
@@ -116,13 +114,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Main.c",
               "DocumentMoniker": "C:\\Users\\David\\source\\repos\\Progetto-PSD Traccia 3\\ProgettoPSD\\Main.c",
               "RelativeDocumentMoniker": "Main.c",
               "ToolTip": "C:\\Users\\David\\source\\repos\\Progetto-PSD Traccia 3\\ProgettoPSD\\Main.c",
               "RelativeToolTip": "Main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACUAAAB7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-05-13T14:43:53.69Z",
               "EditorCaption": ""
