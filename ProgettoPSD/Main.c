@@ -50,9 +50,9 @@ int main(void) {
     int scelta;
     int id_counter = 1; /* Generatore dei codici identificativi */
 
-    printf("==================================================================\n");
-    printf("     SISTEMA GESTIONE SEGNALAZIONI URBAN-CARE - COMUNE \n");
-    printf("==================================================================\n");
+    printf("=========================================================\n");
+    printf("     SISTEMA GESTIONE SEGNALAZIONI COMUNE \n");
+    printf("=========================================================\n");
 
     do {
         printf("\n--- MENU PRINCIPALE ---\n");

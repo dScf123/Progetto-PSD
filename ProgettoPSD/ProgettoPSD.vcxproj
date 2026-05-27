@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="hash.c" />
     <ClCompile Include="Main.c" />
+    <ClCompile Include="main_test.c" />
     <ClCompile Include="pqueue.c" />
     <ClCompile Include="segnalazione.c" />
   </ItemGroup>
